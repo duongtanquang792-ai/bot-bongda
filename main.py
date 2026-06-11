@@ -50,7 +50,7 @@ def lay_ket_qua(league_id):
     params = {
         "league": league_id,
         "date": hom_nay,
-        "season": 2025
+        "season": 2026
     }
     response = requests.get(url, headers=headers, params=params)
     data = response.json()
